@@ -1,0 +1,18 @@
+
+adicionar à base de dados a partir das instruções de um arquivo. A função import do Mysql não aceita grandes quantidades de dados 
+independetemente do tamanho do arquivo ou do POST configurado no apache, acima de 20 mil instruções o Mysql trava.
+
+Este programa ler as instruções de um arquivo e grava uma por uma evitando assim o travamento do Mysql.
+
+parametros:
+
+url do banco;
+nome do usuário;
+senha do usuário;
+nome do banco;
+
+O arquivo as instruções (via gerenciador de arquivo JFileChooser) (.txt e .SQL) ATENCAO: o arquivo deve ser UFT-8 SEM BOM
+
+taxa de gravação: 30 mil inserts/s. 
+
+
